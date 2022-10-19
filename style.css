@@ -1,0 +1,100 @@
+:root{
+    --background:#FA8D70;
+    --card:#C1B9AE;
+    --yellow:#FCC666;
+    --purple:#73607c;
+}
+*{
+    font-family: 'Roboto Mono', monospace,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    min-height: 100vh;
+}
+body{
+
+    background-color: var(--background);
+}
+.name{
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #eb0d0d;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute; 
+    background-color: rgba(235, 253, 154, 0.856); 
+    border-radius: 5px; 
+    font-family: sans-serif; 
+    line-height: 1rem; 
+    -webkit-backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px); 
+    padding: 20px 40px; 
+}
+.card{
+    Box-shadow : 0 4px 20px rgba(165, 211, 0, 0.5); 
+    border-radius: 8px;
+    top: 15vh;
+    margin: 0 auto;
+    position: relative;
+    background-color: var(--yellow);
+    max-width: 280px;
+    min-width: 250px;
+    height: 400px;
+}
+.origen{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    position: absolute
+}
+#flag{
+    height: 30px;
+    width: 50px;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.perfil-dog{
+    left: 25%;
+    top: 30px;
+    border-radius: 50%;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background-image: url(./img/op.jfif);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    -webkit-object-fit: contain;
+    -moz-object-fit: contain;
+    -o-object-fit: contain;
+}
+.button{
+    Box-shadow : 0 4px 20px rgb(218, 217, 212); 
+    line-height: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(248, 225, 12);
+    border-radius: 5px;
+    background-color: #a543d3;
+    height: 30px;
+    width: 100px;
+    left: calc(50% - 50px);
+    top: 85%;
+    position: absolute;
+}
+.button:hover{
+    cursor: pointer;
+    Filter : brightnesss(120%);
+}
